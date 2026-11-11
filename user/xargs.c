@@ -3,7 +3,7 @@
 #include "user/user.h"
 #include "kernel/param.h"
 
-bool is_separator(char c){
+int is_separator(char c){
   return c == ' ' || c == '\n';
 }
 
